@@ -1,0 +1,9 @@
+{
+  "event_id": "092501-006-sample-001",
+  "event_type": "TERM_REGISTERED",
+  "aggregate_type": "source_term",
+  "aggregate_id": "joint_excavation_context_registry-001",
+  "occurred_at": "2026-09-24T10:00:00+08:00",
+  "version": 1,
+  "summary": "登记联合考古上下文版本库的一条领域事实"
+}
