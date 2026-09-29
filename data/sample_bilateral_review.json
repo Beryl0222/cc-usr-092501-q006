@@ -1,0 +1,31 @@
+{
+  "event_id": "REQ-0001-v4",
+  "event_type": "BILATERAL_REVIEWED",
+  "aggregate_type": "review_request",
+  "aggregate_id": "REQ-0001",
+  "occurred_at": "2026-09-28T15:30:00+08:00",
+  "version": 4,
+  "summary": "候选“拉神”经埃方语义确认与中方表达审定后采用",
+  "payload": {
+    "outcome": "adopted",
+    "candidate_id": "CAND-0001",
+    "term_id": "TERM-RA",
+    "audience": "public_adult",
+    "text": "拉神",
+    "effective_from": "2026-09-28T15:30:00+08:00",
+    "opinions": [
+      {
+        "role": "egyptian_semantics",
+        "reviewer": "egyptology:farouk",
+        "verdict": "confirm",
+        "rationale": "原语语义与登记的语义范围一致"
+      },
+      {
+        "role": "chinese_expression",
+        "reviewer": "curator:wang",
+        "verdict": "confirm",
+        "rationale": "符合中文展览表达习惯"
+      }
+    ]
+  }
+}

@@ -21,7 +21,12 @@
       "enum": [
         "TERM_REGISTERED",
         "CANDIDATE_PROPOSED",
+        "REVIEW_OPENED",
+        "OPINION_RECORDED",
         "BILATERAL_REVIEWED",
+        "REVIEW_DISPUTED",
+        "PASSAGE_REGISTERED",
+        "PASSAGE_PUBLISHED",
         "PASSAGE_MIGRATED",
         "ERRATA_ISSUED"
       ]
@@ -31,6 +36,7 @@
       "enum": [
         "source_term",
         "translation_candidate",
+        "review_request",
         "narrative_passage",
         "errata_release"
       ]
@@ -50,6 +56,9 @@
     "summary": {
       "type": "string",
       "minLength": 1
+    },
+    "payload": {
+      "type": "object"
     }
   },
   "additionalProperties": true
