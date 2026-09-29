@@ -22,8 +22,13 @@
         "TERM_REGISTERED",
         "CANDIDATE_PROPOSED",
         "BILATERAL_REVIEWED",
+        "PASSAGE_REGISTERED",
+        "PASSAGE_STATE_CHANGED",
         "PASSAGE_MIGRATED",
-        "ERRATA_ISSUED"
+        "ERRATA_ISSUED",
+        "REVISION_PREPARED",
+        "REVISION_SIGNED",
+        "REVISION_APPLIED"
       ]
     },
     "aggregate_type": {
@@ -32,7 +37,8 @@
         "source_term",
         "translation_candidate",
         "narrative_passage",
-        "errata_release"
+        "errata_release",
+        "term_revision"
       ]
     },
     "aggregate_id": {

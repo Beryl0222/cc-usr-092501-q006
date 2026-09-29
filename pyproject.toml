@@ -1,5 +1,5 @@
 [project]
 name = "joint-excavation-context-registry"
-version = "0.1.0"
-description = "领域事件交换与校验"
+version = "0.2.0"
+description = "双语术语与叙事版本库：领域事件交换与校验"
 requires-python = ">=3.11"
